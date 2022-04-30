@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* https://colorhunt.co/palette/ffeddbedcdbbe3b7a0bf9270 */
+/* index.html CSS */
+/* Header / Logo / h1 css*/
+
+header {
+    width: 100%;
+    height: 300px;
+    background-color: #FFEDDB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 150px;
+    height: auto;
+    margin-left: 15px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 100px 15px rgba(191,146,112,0.75);
+}
+
+.ana-baslik{
+    padding: 15px;
+    opacity: 0.9;
+}
+
+/* Nav section css*/
+
+.nav-div{
+    width: 100px;
+}
+
+
+.nav-div nav ul li{
+    margin-left: 25px;
+    padding-top: 10px;
+    list-style-image: url(mug-hot-solid.svg); /* tekrar bak */
+}
+
+.nav-div nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-div nav ul li a:hover{
+    color: rgba(0, 0, 0, 0.6)
+}
+
+/* Hero section css*/
+
+.hero{
+    width: 100%;
+    height: 500px;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* main section / Products & info css */
+
+main{
+    background-color: #EDCDBB;
+}
+
+main h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    opacity: 0.9;
+    border-bottom: 4px solid #C87137;
+}
+
+main h3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.img{
+    width: 400px;
+    height: auto;
+}
+
+/* content1-3 */
+
+.h-3{
+    border-bottom: 2px solid #C87137;
+    width: 300px;
+}
+
+.h-3-1{
+    text-align: end;
+    padding-right: 20px;
+    border-bottom: 2px solid #C87137;
+    /* width: 300px; */
+}
+
+.house-blend {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.house-blend p{
+    width: 75%;
+    white-space: pre-line;
+    max-width: 50%;
+}
+
+.house-blend img{
+    border-radius: 25px;
+}
+
+.link1{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    padding-bottom: 30px;
+}
+
+.link1 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.link1 a:hover{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.click em{
+    background-color: #BF9270;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+/* content2 */
+
+.french-roast{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.french-roast p{
+    width: 75%;
+    white-space: pre-line;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 50%;
+}
+
+.french-roast img{
+    border-radius: 25px;
+}
+
+.link2{
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.link2 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.link2 a:hover{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* footer area css */
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #BF9270;
+}
+
+.scroll-up{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.scroll-up a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* CONTACT CSS */
+
+.contact form{
+    padding-left: 20px;
+    display: inline-block;
+    align-items: center;
+}
+
+.contact form input{
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFEDDB;
+}
+
+.contact form textarea{
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFEDDB;
+}
+
+.btn {
+    padding: 8px 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #FFEDDB;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.btn:active{
+    scale: (0.9);
+}
+
+/* ABOUT CSS */
+
+.about p{
+    padding: 0 20px;
+    padding-bottom: 100px;
+}
+
+/* Numbers CSS */
+
+#numbers{
+    height: 250px;
+}
+
+.numbers {
+    /* height: 250px; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers tbody{
+    border: 1px solid #C87137;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
