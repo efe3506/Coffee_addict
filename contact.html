@@ -4,66 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- icons link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- style link -->
+    <link rel="stylesheet" href="style.css" />
     <title>Contact</title>
 </head>
 <body>
-    <!-- header / nav -->
-    <header id="contact">
-        <div id="logo">
-            <img src="logo.png" alt="Coffee-logo">
+    <!-- main page header area (a hero photo with logo area and navigation section) -->
+    <header>
+        <div class="upper">
+          <div class="logo-area">
+            <img src="logo.png" alt="coffee-logo" />
+            <h1 id="brand">Coffee<span>Addicts</span></h1>
+          </div>
         </div>
-        <div class="ana-baslik">
-            <h1><em>Contact Us</em></h1>
-        </div>
-        <div class="nav-div">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="numbers.html">Numbers</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  
+        <nav class="h-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="numbers.html">Numbers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+      <!-- hero section -->
+  
+      <section class="hero"></section>
 
-    <!-- hero section -->
-    <section class="hero">
-        
-    </section>
+      <!-- main-forms -->
 
-    <!-- Contact Main / Forms -->
+      <main class="contact">
+        <h2><em>Contact Us</em></h2>
+        <form action="mailto">
+          <label for="name">Name</label>
+          <input type="text" placeholder="Full Name" id="name" required>
 
-    <main class="contact">
-        <h2>Contact</h2>
-        <form action="">
-            <!-- name -->
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="Full Name" required>
-            <br><br>
-            <!-- mail -->
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Email" required>
-            <br><br>
-            <!-- textarea -->
-            <p>Description</p>
-            <textarea name="description" id="" cols="30" rows="10" placeholder="Your Description..."></textarea>
-            <br>
-            <button type="submit" class="btn">Submit</button>
+          <label for="mail">Email</label>
+          <input type="email" placeholder="Email" id="mail" required>
+
+          <label for="phone">Phone</label>
+          <input type="number" placeholder="Phone Number" id="phone" required>
+
+          <textarea name="text" id="tarea" cols="35" rows="15" placeholder="You can write here whatever you want..."></textarea>
+          <button class="btn">Submit</button>
         </form>
-    </main>
-
-    <footer>
-        <div class="scroll-up">
-            <h3><a href="#contact"><em>Back to Top</em></a></h3>
-            <!-- Buraya sosyal medya eklenebilir -->
+      </main>
+         
+      <!-- footer / social media -->
+      <footer>
+        <div class="f-left">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ratione quaerat maiores consectetur deleniti blanditiis totam illo nobis incidunt recusandae!</p>
+            <button class="btn"><a href="#brand">Back to Top</a> </button>
         </div>
-        <div class="footer-p">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, libero eum quasi sed a exercitationem. copyrigth ©2022</p>
+        <div class="social">
+            <ul>
+                <li><a href=""><i class="ri-instagram-line"></i></a></li>
+                <li><a href=""><i class="ri-facebook-circle-line"></i></a></li>
+                <li><a href=""><i class="ri-twitter-line"></i></a></li>
+                <li><a href=""><i class="ri-linkedin-box-line"></i></a></li>
+                <li><a href=""><i class="ri-whatsapp-line"></i></a></li>
+            </ul>
         </div>
+        <div class="f-right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nemo incidunt vero aperiam. Error labore, iure asperiores ab qui at similique! Suscipit dolorum enim perferendis.</p>
+        </div>
+        
     </footer>
-
-
 </body>
 </html>

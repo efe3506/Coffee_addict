@@ -4,77 +4,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icons link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- style link -->
     <link rel="stylesheet" href="style.css" />
     <title>Numbers</title>
   </head>
   <body>
-    <!-- header / nav -->
-    <header id="numbers">
-      <div id="logo">
-        <img src="logo.png" alt="Coffee-logo" />
+    <!-- main page header area (a hero photo with logo area and navigation section) -->
+    <header>
+      <div class="upper">
+        <div class="logo-area">
+          <img src="logo.png" alt="coffee-logo" />
+          <h1 id="brand">Coffee<span>Addicts</span></h1>
+        </div>
       </div>
-      <div class="ana-baslik">
-        <h1><em>Numbers</em></h1>
-      </div>
-      <div class="nav-div">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#">Numbers</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+
+      <nav class="h-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="numbers.html">Numbers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- hero section -->
+
     <section class="hero"></section>
 
-    <!-- main -->
-    
-    <main id="numbers">
-      <h2>Our Stores</h2>
-      <table class="numbers">
-        <tbody>
-          <!-- cities -->
-          <tr>
-            <th><em>Cities</em></th>
-            <th>İstanbul</th>
-            <th>Ankara</th>
-            <th>İzmir</th>
-            <th>Bursa</th>
-          </tr>
-          <!-- orders -->
-          <tr>
-            <td>
-              <strong><em>Orders:</em></strong>
-            </td>
-            <td>500</td>
-            <td>390</td>
-            <td>250</td>
-            <td>250</td>
-          </tr>
-          <!-- profit -->
-          <td>
-            <strong><em>Profit:</em></strong>
-          </td>
-          <td>30.000$</td>
-          <td>27.000$</td>
-          <td>20.000$</td>
-          <td>20.000$</td>
-        </tbody>
-      </table>
+    <!-- numbers / main -->
+
+    <main class="numbers">
+        <h2><em>Our Stores</em></h2>
+        <table class="numbers-t">
+            <tbody>
+                <tr>
+                    <th><em>Cities</em></th>
+                    <th>İstanbul</th>
+                    <th>Ankara</th>
+                    <th>İzmir</th>
+                    <th>Bursa</th>
+                </tr>
+                <tr>
+                    <td><em>Orders</em></td>
+                    <td>500</td>
+                    <td>390</td>
+                    <td>250</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td><em>Profit</em></td>
+                    <td>30.000$</td>
+                    <td>27.000$</td>
+                    <td>20.000$</td>
+                    <td>20.000$</td>
+                </tr>
+                <tr>
+                    <td><em>Future Predict</em></td>
+                    <td>35.000$</td>
+                    <td>32.000$</td>
+                    <td>25.000$</td>
+                    <td>25.000$</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
+    <!-- footer / social media  -->
+
     <footer>
-        <div class="scroll-up">
-            <h3><a href="#numbers"><em>Back to Top</em></a></h3>
-            <!-- Buraya sosyal medya eklenebilir -->
-        </div>
-        <div class="footer-p">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, libero eum quasi sed a exercitationem. copyrigth ©2022</p>
-        </div>
+      <div class="f-left">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Reprehenderit ratione quaerat maiores consectetur deleniti blanditiis
+          totam illo nobis incidunt recusandae!
+        </p>
+        <button class="btn"><a href="#brand">Back to Top</a></button>
+      </div>
+      <div class="social">
+        <ul>
+          <li>
+            <a href=""><i class="ri-instagram-line"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ri-facebook-circle-line"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ri-twitter-line"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ri-linkedin-box-line"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ri-whatsapp-line"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="f-right">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nemo
+          incidunt vero aperiam. Error labore, iure asperiores ab qui at
+          similique! Suscipit dolorum enim perferendis.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
