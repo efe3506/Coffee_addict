@@ -31,6 +31,16 @@ header .container img{
     }
 }
 
+@media screen and (max-width:450px){
+    #logo-img{
+        width: 80px;
+    }
+
+    #logo-h1{
+        font-size: 1.5em;
+    }
+}
+
 #logo-h1{
     letter-spacing: -2px;
     font-weight: 400;
