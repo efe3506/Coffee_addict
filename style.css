@@ -162,6 +162,12 @@ main .main-h2{
 
 /* ABOUT css */
 
+.about h2{
+    color: #333;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+}
+
 .about-img img{
     width: 100%;
     height: auto;
@@ -187,6 +193,12 @@ main .main-h2{
 }
 
 /* Contact CSS */
+
+form.container h2{
+    color: #333;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+}
 
 .contact-btn, .label-text{
     font-size: large;
@@ -222,4 +234,15 @@ main .main-h2{
     100%{
         letter-spacing: 2px;
     }
+}
+
+/* Numbers CSS */
+.numbers-main h2{
+    color: #333;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+}
+.numbers-main table{
+    padding: 2rem;
+    margin: 2rem;
 }
